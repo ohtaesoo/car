@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>future car</title>
+    <body style="margin-left: 30%; margin-right: 30%">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+
+  <body>
+    <h1 class="text1" style="text-align: center">내가 미래에 타게 될<br>자동차는?</h1>
+    <div class="wrapper">
+    <div class="card">
+      <div class="card__media">
+        <img src="https://ww.namu.la/s/792488ad3bf10b40dca7f53e4d24c3d294c4a7a3629b23225fffe467610d9fbd68b856d5d9715dc98736bec1df9344755f5e51bf11ef67f90efc1d28d186318814d2080a199755bdba726f9c58d8df5dd661d7a0f577b22db1f068264bbb295a" alt="" class="card__media--image" />
+      </div>
+      <div class="card__body">
+        <p>
+          <h4>
+            <?php echo $_GET['id'] ?>
+            님이 타게 될 차는 "카트라넥"입니다!!! 눈이 뒤에 달렸나요?
+          </h4>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--Copyright (c) 2021 by Kevin Gimbel (https://codepen.io/kevingimbel/pen/GCDep)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
